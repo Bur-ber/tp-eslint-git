@@ -60,12 +60,11 @@ ajout du script 'lint' et lancement de la commande ```npm run lint```:
 
 ```
 C:\Users\sarah\source\repos\Ecole\Outils_pratique_code_BIAM\tp-eslint-git\app.js
-  2:1  warning  Unexpected console statement                  no-console
-  4:1  error    Expected indentation of 2 spaces but found 4  indent
-  4:5  warning  Unexpected console statement                  no-console
+    2:1  warning  Unexpected console statement  no-console
+  4:3  warning  Unexpected console statement  no-console
 
-✖ 3 problems (1 error, 2 warnings)
-  1 error and 0 warnings potentially fixable with the `--fix` option.
+✖ 2 problems (0 errors, 2 warnings)
+
 
 ```
 
