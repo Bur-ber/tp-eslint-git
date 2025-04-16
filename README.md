@@ -1,4 +1,5 @@
-# TP ESLINT
+
+# TP ESLINT - Sarah Poissonnier 3IABD1
 
 ## 1. Initialisation du projet et installation d'ESLint
 
