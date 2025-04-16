@@ -1,4 +1,4 @@
-#TP ESLINT
+# TP ESLINT
 
 ## 1. Initialisation du projet et installation d'ESLint
 
@@ -72,4 +72,37 @@ C:\Users\sarah\source\repos\Ecole\Outils_pratique_code_BIAM\tp-eslint-git\app.js
 ## 5. Mise en place de GitHub Actions
 
 
+Après ajout du Workflow : présence d'un workflow run avec comme nom le dernier commit et réception d'un email avec le succès ou l'échec de la Run du workflow
+
+
 ## 6. Simulation d’un travail d’équipe
+
+Après ajout du code non conforme : 
+```
+C:\Users\sarah\source\repos\Ecole\Outils_pratique_code_BIAM\tp-eslint-git\app.js
+  2:1  warning  Unexpected console statement  no-console
+  4:3  warning  Unexpected console statement  no-console
+
+C:\Users\sarah\source\repos\Ecole\Outils_pratique_code_BIAM\tp-eslint-git\utils.js
+   2:1   error    Expected indentation of 2 spaces but found 0  indent
+   3:1   warning  Unexpected console statement                  no-console
+   3:1   error    Expected indentation of 2 spaces but found 0  indent
+   4:1   error    Expected indentation of 2 spaces but found 0  indent
+  11:5   warning  Unexpected console statement                  no-console
+  11:17  error    Strings must use singlequote                  quotes
+  17:1   warning  Unexpected console statement                  no-console
+  22:3   warning  Unexpected console statement                  no-console
+  22:15  error    Strings must use singlequote                  quotes
+  26:1   error    Expected indentation of 2 spaces but found 0  indent
+  28:1   error    Expected indentation of 2 spaces but found 0  indent
+  33:3   warning  Unexpected console statement                  no-console
+  37:3   warning  Unexpected console statement                  no-console
+  48:3   warning  Unexpected console statement                  no-console
+  49:3   warning  Unexpected console statement                  no-console
+  53:3   warning  Unexpected console statement                  no-console
+
+✖ 18 problems (7 errors, 11 warnings)
+  7 errors and 0 warnings potentially fixable with the `--fix` option.
+
+husky - pre-commit script failed (code 1)
+```
